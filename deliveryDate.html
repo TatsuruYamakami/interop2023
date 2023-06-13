@@ -5,16 +5,65 @@
     <META HTTP-EQUIV="X-UA-Compatible" content="IE=edge,chrome=1">
     <TITLE>DeliveryDate</TITLE>
 </HEAD>
-<body>
+<style>
+table{
+  width: 100%;
+  border-collapse:separate;
+  border-spacing: 0;
+}
+
+table th:first-child{
+  border-radius: 5px 0 0 0;
+}
+
+table th:last-child{
+  border-radius: 0 5px 0 0;
+  border-right: 1px solid #3c6690;
+}
+
+table th{
+  text-align: center;
+  color:white;
+  background: linear-gradient(#829ebc,#225588);
+  border-left: 1px solid #3c6690;
+  border-top: 1px solid #3c6690;
+  border-bottom: 1px solid #3c6690;
+  box-shadow: 0px 1px 1px rgba(255,255,255,0.3) inset;
+  width: 25%;
+  padding: 10px 0;
+}
+
+table td{
+  text-align: center;
+  border-left: 1px solid #a8b7c5;
+  border-bottom: 1px solid #a8b7c5;
+  border-top:none;
+  box-shadow: 0px -3px 5px 1px #eee inset;
+  width: 25%;
+  padding: 10px 0;
+}
+
+table td:last-child{
+  border-right: 1px solid #a8b7c5;
+}
+
+table tr:last-child td:first-child {
+  border-radius: 0 0 0 5px;
+}
+
+table tr:last-child td:last-child {
+  border-radius: 0 0 5px 0;
+}
+</style>
 
 <body>
-<h3>	<Desk Camera>	</h3>				
+<h3>	Desk Camera	</h3>				
 <table><tr><th>	Product	</th><th>	day(s)	</th><th>	Announced Date	</th></tr>
 <tr><td>	CD-DSKCAM-C-WW	</td><td>	2	</td><td>	2023/6/13	</td></tr>
 <tr><td>	CD-DSKCAMD-C-WW	</td><td>	2	</td><td>	2023/6/13	</td></tr></table>
 <br>						
 						
-<h3>	<Meraki MG>	</h3>				
+<h3>	Meraki MG	</h3>				
 <table><tr><th>	Product	</th><th>	day(s)	</th><th>	Announced Date	</th></tr>
 <tr><td>	MG21-HW-WW	</td><td>	1	</td><td>	2023/6/9	</td></tr>
 <tr><td>	MG21E-HW-WW	</td><td>	1	</td><td>	2023/6/9	</th></tr>
@@ -23,7 +72,7 @@
 <tr><td>	MG51-HW	</td><td>	1	</td><td>	2023/6/9	</td></tr>
 <tr><td>	MG51E-HW	</td><td>	1	</td><td>	2023/6/9	</td></tr></table>
 <br>						
-<h3>	<Meraki MR>	</h3>				
+<h3>	Meraki MR	</h3>				
 <table><tr><th>	Product	</th><th>	day(s)	</th><th>	Announced Date	</th></tr>
 <tr><td>	CW9162I-MR	</td><td>	1	</td><td>	2023/6/9	</td></tr>
 <tr><td>	CW9164I-MR	</td><td>	1	</td><td>	2023/6/9	</th></tr>
@@ -61,7 +110,7 @@
 <tr><td>	MA-UMNT-MR-A2	</td><td>	1	</td><td>	2023/6/9	</th></tr>
 <tr><td>	MA-UMNT-MR-A3	</td><td>	1	</td><td>	2023/6/9	</td></tr></table>
 <br>						
-<h3>	<Meraki MS>	</h3>				
+<h3>	Meraki MS	</h3>				
 <table><tr><th>	Product	</th><th>	day(s)	</th><th>	Announced Date	</th></tr>
 <tr><td>	MS120-24-HW	</td><td>	1	</td><td>	2023/6/9	</td></tr>
 <tr><td>	MS120-24P-HW	</td><td>	80	</td><td>	2023/6/9	</th></tr>
@@ -116,7 +165,7 @@
 <tr><td>	MS425-32-HW	</td><td>	1	</td><td>	2023/6/9	</td></tr>
 <tr><td>	MS450-12-HW	</td><td>	90	</td><td>	2023/6/9	</td></tr></table>
 <br>						
-<h3>	<Meraki Z3/MX>	</h3>				
+<h3>	Meraki Z3/MX	</h3>				
 <table><tr><th>	Product	</th><th>	day(s)	</th><th>	Announced Date	</th></tr>
 <tr><td>	Z3-HW	</td><td>	1	</td><td>	2023/6/9	</td></tr>
 <tr><td>	MX105-HW	</td><td>	1	</td><td>	2023/6/9	</th></tr>
@@ -133,7 +182,7 @@
 <tr><td>	MX95-HW	</td><td>	1	</td><td>	2023/6/9	</td></tr>
 <tr><td>	MA-ANT-MX	</td><td>	1	</td><td>	2023/6/9	</td></tr></table>
 <br>						
-<h3>	<Meraki MV>	</h3>				
+<h3>	Meraki MV	</h3>				
 <table><tr><th>	Product	</th><th>	day(s)	</th><th>	Announced Date	</th></tr>
 <tr><td>	MV12N-HW	</td><td>	1	</td><td>	2023/6/9	</td></tr>
 <tr><td>	MV12W-HW	</td><td>	1	</td><td>	2023/6/9	</th></tr>
@@ -168,7 +217,7 @@
 <tr><td>	MA-MNT-MV-88	</td><td>	90	</td><td>	2023/6/9	</td></tr>
 <tr><td>	MA-PWR-MV-LV	</td><td>	1	</td><td>	2023/6/9	</td></tr></table>
 <br>						
-<h3>	<Meraki MT>	</h3>				
+<h3>	Meraki MT	</h3>				
 <table><tr><th>	Product	</th><th>	day(s)	</th><th>	Announced Date	</th></tr>
 <tr><td>	MT10-HW	</td><td>	1	</td><td>	2023/6/9	</td></tr>
 <tr><td>	MT11-HW	</td><td>	1	</td><td>	2023/6/9	</th></tr>
